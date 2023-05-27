@@ -729,13 +729,6 @@ body {
   cursor: pointer;
   margin-right: 8px;
 }
-.contact-form-checkbox:focus + .contact-form-checkmark {
-  outline: 1px solid #404bbf;
-}
-.contact-form-checkbox:checked + .contact-form-checkmark {
-  background-color: #4d5ae5;
-  fill: #f4f4fd;
-}
 .contact-form-submit {
   display: block;
   border: none;
