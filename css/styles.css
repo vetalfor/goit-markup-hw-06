@@ -559,8 +559,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 72px 24px 24px 24px;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
@@ -607,8 +606,11 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
   color: #2e2f42;
-  margin-top: 72px;
+}
+.form-container {
+  margin-bottom: 8px;
 }
 .contact-form-field-wrapper,
 .contact-form-checkbox-wrapper {
