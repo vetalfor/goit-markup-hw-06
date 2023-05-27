@@ -688,6 +688,14 @@ body {
 .privacy-policy-container {
   margin-bottom: 24px;
 }
+.contact-form-checkbox:checked
+  + .contact-form-checkbox-wrapper
+  .modal-text-privacy-policy {
+  background-color: var(--menu-text-color);
+  border: none;
+  fill: var(--main-background-color);
+  border-color: var(--menu-text-color);
+}
 .contact-form-checkbox-wrapper {
   position: relative;
   display: inline-flex;
@@ -710,6 +718,9 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.contact-policy-link {
+  color: #4d5ae5;
 }
 .contact-form-checkmark {
   border: 1px solid rgba(46, 47, 66, 0.4);
