@@ -6,6 +6,7 @@
   --hero-background-color: #2e2f42;
   --border-color-btn-portfolio: #e7e9fc;
   --menu-text-color: #404bbf;
+  --color-text-label: #8e8f99;
   --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ===========Default=========== */
@@ -614,7 +615,13 @@ body {
 }
 .contact-form-field-wrapper,
 .contact-form-checkbox-wrapper {
+  position: relative;
   display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-text-label);
+  margin-bottom: 4px;
 }
 .contact-form-input {
   width: 100%;
