@@ -709,7 +709,7 @@ body {
   background-color: transparent;
   outline: transparent;
 }
-.text-privacy-policy {
+.modal-text-privacy-policy {
   display: inline-flex;
   width: 16px;
   height: 16px;
